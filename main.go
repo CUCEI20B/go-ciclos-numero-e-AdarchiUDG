@@ -16,7 +16,7 @@ func main() {
 
 	fmt.Scanln(&max)
 
-	for i := 0; i < int(max); i++ {
+	for i := 0; i <= int(max); i++ {
 		e += 1.0 / float64(factorial(i))
 	}
 
